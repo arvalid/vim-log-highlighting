@@ -91,6 +91,7 @@ syn match logXmlEntity       /&#\?\w\+;/
 
 " Levels
 "---------------------------------------------------------------------------
+syntax case ignore
 syn keyword logLevelEmergency EMERGENCY EMERG
 syn keyword logLevelAlert ALERT
 syn keyword logLevelCritical CRITICAL CRIT FATAL

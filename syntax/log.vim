@@ -102,6 +102,7 @@ syn keyword logLevelInfo INFO
 syn keyword logLevelDebug DEBUG FINE
 syn keyword logLevelTrace TRACE FINER FINEST
 
+syn region dosiniHeader   start="^\s*\[" end="\]"
 
 " Highlight links
 "---------------------------------------------------------------------------
@@ -153,7 +154,7 @@ hi def link logLevelInfo Repeat
 hi def link logLevelDebug Debug
 hi def link logLevelTrace Comment
 
-
+hi def link dosiniHeader   Special
 
 let b:current_syntax = 'log'
 

@@ -97,8 +97,8 @@ syn keyword logLevelAlert ALERT
 syn keyword logLevelCritical CRITICAL CRIT FATAL UVM_FATAL
 syn keyword logLevelError ERROR ERR FAILURE SEVERE UVM_ERROR
 syn keyword logLevelWarning WARNING WARN UVM_WARNING
-syn keyword logLevelNotice NOTICE
-syn keyword logLevelInfo INFO
+syn keyword logLevelNotice NOTICE NOTE
+syn keyword logLevelInfo INFO UVM_INFO
 syn keyword logLevelDebug DEBUG FINE UVM_DEBUG
 syn keyword logLevelTrace TRACE FINER FINEST
 
